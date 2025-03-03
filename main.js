@@ -13,7 +13,7 @@ document.getElementById('submit').addEventListener('click', function(event) {
         window.location.href = "https://unitedpharmacyacademy.moodlecloud.com/login/index.php?username="+email; 
     } 
     else {
-      alert("Email is not correct, please check your email"); // Show an alert if the email is not found
+      alert("الإيميل غير صحيح، برجاء التأكد من كتابة الإيميل بشكل صحيح"); // Show an alert if the email is not found
     }
   });
   
